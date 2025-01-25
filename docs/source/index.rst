@@ -1,14 +1,17 @@
-Welcome to Lumache's documentation!
+Welcome to Fetch Innovation Lab documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-Lumache hosts its documentation and helps on read the docs
+# Fetch AI
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Fetch AI is a blockchain platform that focuses on decentralized machine learning and AI applications. Key features:
+
+- Smart contracts with AI capabilities
+- Autonomous Economic Agents (AEAs) for automated transactions
+- Open Economic Framework (OEF) for agent discovery
+- Native FET token for network transactions
+- Proof-of-Stake consensus mechanism
+
+The platform enables developers to create AI-powered applications that can autonomously interact, trade resources, and perform complex tasks in a decentralized environment.
 
 .. note::
 
@@ -19,5 +22,6 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   AI Agents
+   uAgents
+   Fetch SDK
