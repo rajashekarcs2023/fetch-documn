@@ -1,27 +1,32 @@
 Welcome to Fetch Innovation Lab documentation!
 ===================================
+# Fetch AI Documentation
 
-# Fetch AI
+Fetch AI is a decentralized machine learning platform using blockchain technology. This documentation uses Sphinx for structured technical documentation.
 
-Fetch AI is a blockchain platform that focuses on decentralized machine learning and AI applications. Key features:
+## Installation
+```{toctree}
+:maxdepth: 2
 
-- Smart contracts with AI capabilities
-- Autonomous Economic Agents (AEAs) for automated transactions
-- Open Economic Framework (OEF) for agent discovery
-- Native FET token for network transactions
-- Proof-of-Stake consensus mechanism
+installation
+```
 
-The platform enables developers to create AI-powered applications that can autonomously interact, trade resources, and perform complex tasks in a decentralized environment.
+## Usage
+```{toctree}
+:maxdepth: 2
 
-.. note::
+usage/quickstart
+usage/agents
+usage/smart-contracts
+```
 
-   This project is under active development.
+## API Reference
+```{toctree}
+:maxdepth: 2
 
-Contents
---------
+api/core
+api/ml
+api/blockchain
+```
 
-.. toctree::
-
-   AI Agents
-   uAgents
-   Fetch SDK
+For development and contributions, see the :ref:`development` section.
