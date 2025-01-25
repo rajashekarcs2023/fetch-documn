@@ -1,32 +1,29 @@
 Welcome to Fetch Innovation Lab documentation!
 ===================================
-# Fetch AI Documentation
 
-Fetch AI is a decentralized machine learning platform using blockchain technology. This documentation uses Sphinx for structured technical documentation.
+**Fetch AI** 
+=================
 
-## Installation
-```{toctree}
-:maxdepth: 2
+A Python library for developing decentralized AI applications on the Fetch.ai network.
 
-installation
-```
+Features
+--------
+- Distributed ML model training and inference
+- Autonomous agent development
+- Smart contract integration
+- Native FET token support
 
-## Usage
-```{toctree}
-:maxdepth: 2
+Quick Start
+----------
+Check out the :doc:`usage` guide for:
+- Basic setup (:ref:`installation`)
+- Agent creation
+- Model training
+- Smart contract deployment
 
-usage/quickstart
-usage/agents
-usage/smart-contracts
-```
+.. note::
+   - Documentation: https://docs.fetch.ai/
+   - Source code: https://github.com/fetchai/
+   - Support: https://discord.fetch.ai/
 
-## API Reference
-```{toctree}
-:maxdepth: 2
-
-api/core
-api/ml
-api/blockchain
-```
-
-For development and contributions, see the :ref:`development` section.
+For examples and tutorials, see :doc:`examples`.
